@@ -29,7 +29,7 @@ type_of_meal_plan = st.selectbox("Meal Plan", ['Meal Plan 1', 'Meal Plan 2', 'Me
 required_car_parking_space = st.selectbox("Car Parking Required", [0, 1])
 room_type_reserved = st.selectbox("Room Type", ['Room_Type 1', 'Room_Type 2', 'Room_Type 3', 'Room_Type 4', 'Room_Type 5', 'Room_Type 6', 'Room_Type 7'])
 lead_time = st.number_input("Lead Time", min_value=0, value=45)
-arrival_year = st.selectbox("Arrival Year", [2017])  # Bisa diganti jika model support tahun lain
+arrival_year = st.selectbox("Arrival Year", [2017,2018])  # Bisa diganti jika model support tahun lain
 arrival_month = st.selectbox("Arrival Month", list(range(1, 13)))
 arrival_date = st.selectbox("Arrival Date", list(range(1, 32)))
 market_segment_type = st.selectbox("Market Segment", ['Online', 'Offline', 'Corporate', 'Complementary', 'Aviation'])
